@@ -4,10 +4,9 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import styles from './styles';
 
-const ArticleCard = ({article, onPress}) => {
-  const {title, urlToImage, source, publishedAt} = article;
+const ArticleCard = ({title, urlToImage, source, publishedAt, onPress}) => {
   return (
-    <TouchableOpacity onPress={() => onPress(article)}>
+    <TouchableOpacity onPress={() => onPress(source)}>
       <Image source={{uri: urlToImage}} style={styles.card} />
       <Text style={styles.title}>{title}</Text>
       <View style={styles.bottomRow}>
@@ -21,7 +20,10 @@ const ArticleCard = ({article, onPress}) => {
 };
 
 ArticleCard.propTypes = {
-  article: PropTypes.shape({}).isRequired,
+  title: PropTypes.string.isRequired,
+  urlToImage: PropTypes.string.isRequired,
+  source: PropTypes.string.isRequired,
+  publishedAt: PropTypes.string.isRequired,
   onPress: PropTypes.func.isRequired,
 };
 

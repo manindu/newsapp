@@ -11,7 +11,13 @@ const Home = ({getNewsArticles, articles}) => {
   }, [getNewsArticles]);
 
   const renderItem = ({item}) => (
-    <ArticleCard article={item} onPress={() => {}} />
+    <ArticleCard
+      title={item.title}
+      urlToImage={item.urlToImage}
+      source={item.source}
+      publishedAt={item.publishedAt}
+      onPress={() => {}}
+    />
   );
 
   const keyExtractor = (item, index) => index.toString();
