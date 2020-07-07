@@ -22,7 +22,7 @@ const ArticleCard = ({title, urlToImage, source, publishedAt, onPress}) => {
 ArticleCard.propTypes = {
   title: PropTypes.string.isRequired,
   urlToImage: PropTypes.string.isRequired,
-  source: PropTypes.string.isRequired,
+  source: PropTypes.shape({}).isRequired,
   publishedAt: PropTypes.string.isRequired,
   onPress: PropTypes.func.isRequired,
 };
