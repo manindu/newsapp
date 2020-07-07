@@ -6,7 +6,7 @@ import styles from './styles';
 
 const ArticleCard = ({title, urlToImage, source, publishedAt, onPress}) => {
   return (
-    <TouchableOpacity onPress={() => onPress(source)}>
+    <TouchableOpacity onPress={() => onPress(source)} style={styles.container}>
       <Image source={{uri: urlToImage}} style={styles.card} />
       <Text style={styles.title}>{title}</Text>
       <View style={styles.bottomRow}>

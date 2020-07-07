@@ -2,6 +2,9 @@ import {StyleSheet} from 'react-native';
 import {COLORS} from '../../utils/constants';
 
 const styles = StyleSheet.create({
+  container: {
+    marginBottom: 20,
+  },
   card: {
     flex: 1,
     width: '100%',

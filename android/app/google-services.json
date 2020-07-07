@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "891766342622",
+    "firebase_url": "https://news-app-abad4.firebaseio.com",
+    "project_id": "news-app-abad4",
+    "storage_bucket": "news-app-abad4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891766342622:android:6517a0fa1399a337ad134f",
+        "android_client_info": {
+          "package_name": "com.manindu.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891766342622-iqtd8t2ntcc0mj02pm3jm31077jef37s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV32_G81cBV4fj1Dw_ONL1m4vn8NlsLpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891766342622-iqtd8t2ntcc0mj02pm3jm31077jef37s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

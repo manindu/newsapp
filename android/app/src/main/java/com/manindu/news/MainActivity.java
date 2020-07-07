@@ -1,4 +1,4 @@
-package com.news;
+package com.manindu.news;
 
 import com.facebook.react.ReactActivity;
 

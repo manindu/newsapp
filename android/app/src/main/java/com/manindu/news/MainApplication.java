@@ -1,4 +1,4 @@
-package com.news;
+package com.manindu.news;
 
 import android.app.Application;
 import android.content.Context;

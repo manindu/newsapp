@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.news",
+    package = "com.manindu.news",
 )
 
 android_resource(
     name = "res",
-    package = "com.news",
+    package = "com.manindu.news",
     res = "src/main/res",
 )
 
